@@ -1,0 +1,21 @@
+@import '../../../styles/_variables.scss';
+
+.header-logo,
+.nav-item {
+	color: $color-black;
+	color: $color-black;
+	text-decoration: none;
+
+	&:hover {
+		color: $color-primary;
+	}
+}
+
+.header-logo {
+	font-weight: 500;
+}
+
+.nav-item {
+	list-style: none;
+	margin-left: 3.2rem;
+}
