@@ -8,7 +8,9 @@ const Navigation = () => {
 		<nav className='show-menu'>
 			<ul className='nav-list'>
 				<li>
-					<Link varient='nav-item'>Home</Link>
+					<Link varient='nav-item' active>
+						Home
+					</Link>
 				</li>
 				<li>
 					<Link varient='nav-item'>About</Link>

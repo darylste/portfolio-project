@@ -1,7 +1,8 @@
+import classNames from 'classnames';
 import React from 'react';
 import './Link.style.scss';
 
-const Link = ({ varient, children }) => {
+const Link = ({ varient, children, active = false }) => {
 	switch (varient) {
 		case 'logo':
 			return (
@@ -11,7 +12,13 @@ const Link = ({ varient, children }) => {
 			);
 		case 'nav-item':
 			return (
-				<a href='#home' className='nav-item'>
+				<a
+					href='#home'
+					className={classNames({
+						'nav-item': true,
+						'nav-active': active,
+					})}
+				>
 					{children}
 				</a>
 			);

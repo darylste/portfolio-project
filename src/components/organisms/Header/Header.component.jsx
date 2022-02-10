@@ -1,15 +1,20 @@
 import React from 'react';
 import './Header.style.scss';
 
+import Spacer from '../../atoms/Spacer/Spacer.component';
 import Link from '../../atoms/Link/Link.component';
 import Navigation from '../../molecules/Navigation/Navigation.component';
 
 const Header = () => {
 	return (
-		<header>
-			<Link varient={'logo'}>Daryl Stensland</Link>
-			<Navigation />
-		</header>
+		<React.Fragment>
+			<Spacer top='sm' btm='sm'>
+				<header>
+					<Link varient={'logo'}>Daryl Stensland</Link>
+					<Navigation />
+				</header>
+			</Spacer>
+		</React.Fragment>
 	);
 };
 
