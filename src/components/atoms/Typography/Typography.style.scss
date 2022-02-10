@@ -1,11 +1,35 @@
 @import '../../../styles/variables';
 
 .hero-title {
-	font-size: $font-size-xl;
+	font-size: $font-size-xxl;
 	color: $color-black;
 }
 
 .hero-subtitle {
-	font-size: 2rem;
-	font-weight: 500;
+	font-size: $font-size-md;
+	font-weight: $font-weight-med;
+}
+
+.title {
+	font-size: $font-size-xl;
+	font-weight: $font-weight-semi-bold;
+	text-align: center;
+	color: $color-black;
+}
+
+.subtitle {
+	font-size: $font-size-sm;
+	font-weight: $font-weight-reg;
+	text-align: center;
+}
+
+.stats {
+	font-size: $font-size-lg;
+	font-weight: $font-weight-semi-bold;
+	color: $color-black;
+}
+
+.stat-text {
+	font-size: $font-size-sm;
+	text-align: center;
 }

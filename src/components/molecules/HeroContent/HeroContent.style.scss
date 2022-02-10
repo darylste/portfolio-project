@@ -1,6 +1,9 @@
+@import '../../../styles/variables';
+
 .hero-content {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
+	gap: $spacing-xxl;
 }
 
 .hero-img {

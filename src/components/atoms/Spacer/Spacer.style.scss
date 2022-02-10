@@ -2,72 +2,88 @@
 
 .top {
 	&-xs {
-		margin-top: $spacing-xs;
+		padding-top: $spacing-xs;
 	}
 
 	&-sm {
-		margin-top: $spacing-sm;
+		padding-top: $spacing-sm;
 	}
 
 	&-md {
-		margin-top: $spacing-md;
+		padding-top: $spacing-md;
+	}
+
+	&-lg {
+		padding-top: $spacing-lg;
 	}
 
 	&-xxl {
-		margin-top: $spacing-xxl;
+		padding-top: $spacing-xxl;
 	}
 }
 
 .right {
 	&-xs {
-		margin-right: $spacing-xs;
+		padding-right: $spacing-xs;
 	}
 
 	&-sm {
-		margin-right: $spacing-sm;
+		padding-right: $spacing-sm;
 	}
 
 	&-md {
-		margin-right: $spacing-md;
+		padding-right: $spacing-md;
+	}
+
+	&-lg {
+		padding-right: $spacing-lg;
 	}
 
 	&-xxl {
-		margin-right: $spacing-xxl;
+		padding-right: $spacing-xxl;
 	}
 }
 
 .btm {
 	&-xs {
-		margin-bottom: $spacing-xs;
+		padding-bottom: $spacing-xs;
 	}
 
 	&-sm {
-		margin-bottom: $spacing-sm;
+		padding-bottom: $spacing-sm;
 	}
 
 	&-md {
-		margin-bottom: $spacing-md;
+		padding-bottom: $spacing-md;
+	}
+
+	&-lg {
+		padding-bottom: $spacing-lg;
 	}
 
 	&-xxl {
-		margin-bottom: $spacing-xxl;
+		padding-bottom: $spacing-xxl;
 	}
 }
 
 .left {
 	&-xs {
-		margin-left: $spacing-xs;
+		padding-left: $spacing-xs;
 	}
 
 	&-sm {
-		margin-left: $spacing-sm;
+		padding-left: $spacing-sm;
 	}
 
 	&-md {
-		margin-left: $spacing-md;
+		padding-left: $spacing-md;
+	}
+
+	&-lg {
+		padding-left: $spacing-lg;
 	}
 
 	&-xxl {
-		margin-left: $spacing-xxl;
+		padding-left: $spacing-xxl;
 	}
 }

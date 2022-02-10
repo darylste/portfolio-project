@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroContent.style.scss';
 
 import heroImg from '../../../assets/programming.svg';
+import sendIcon from '../../../assets/sent.svg';
 
 import Typography from '../../atoms/Typography/Typography.component';
 import Button from '../../atoms/Button/Button.component';
@@ -20,7 +21,9 @@ const HeroContent = () => {
 							Glasgow College.
 						</Typography>
 					</Spacer>
-					<Button varient='primary'>Contact me</Button>
+					<Button varient='primary' icon={sendIcon}>
+						Contact me
+					</Button>
 				</div>
 				<img className='hero-img' src={heroImg} alt='programmer' />
 			</div>

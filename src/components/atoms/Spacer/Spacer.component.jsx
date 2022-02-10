@@ -17,6 +17,11 @@ const Spacer = ({ top, right, btm, left, children }) => {
 				'btm-md': btm === 'md',
 				'left-md': left === 'md',
 
+				'top-lg': top === 'lg',
+				'right-lg': right === 'lg',
+				'btm-lg': btm === 'lg',
+				'left-lg': left === 'lg',
+
 				'top-xxl': top === 'xxl',
 				'right-xxl': right === 'xxl',
 				'btm-xxl': btm === 'xxl',

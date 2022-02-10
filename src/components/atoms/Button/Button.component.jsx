@@ -1,12 +1,11 @@
 import React from 'react';
-import sendIcon from '../../../assets/sent.svg';
 import './Button.style.scss';
 
-const Button = ({ varient, children }) => {
+const Button = ({ varient, icon, children }) => {
 	return (
 		<button className={`btn-${varient}`}>
 			{children}
-			<img className='btn-icon' src={sendIcon} alt='send icon' />
+			<img className='btn-icon' src={icon} alt='send icon' />
 		</button>
 	);
 };
