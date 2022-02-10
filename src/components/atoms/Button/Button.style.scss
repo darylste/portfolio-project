@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.btn {
+	&-primary {
+		display: inline-flex;
+		align-items: center;
+		background-color: $color-primary;
+		color: #fff;
+		padding: 1.6rem;
+		border: none;
+		border-radius: 0.8rem;
+		font-family: $font-family-primary;
+		font-size: $font-size-body;
+		font-weight: $font-weight-med;
+	}
+
+	&-icon {
+		width: 2.5rem;
+		margin-left: 1rem;
+	}
+}

@@ -1,0 +1,10 @@
+@import '../../../styles/variables';
+
+.social-icon {
+	color: $color-primary;
+	width: 2.25rem;
+
+	&:hover {
+		color: $color-primary-dark;
+	}
+}

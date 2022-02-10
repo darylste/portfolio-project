@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.hero-title {
+	font-size: $font-size-xl;
+	color: $color-black;
+}
+
+.hero-subtitle {
+	font-size: 2rem;
+	font-weight: 500;
+}

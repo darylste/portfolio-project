@@ -3,13 +3,7 @@ import classNames from 'classnames';
 
 import './Spacer.style.scss';
 
-const Spacer = ({
-	top = 'md',
-	right = 'md',
-	btm = 'md',
-	left = 'md',
-	children,
-}) => {
+const Spacer = ({ top, right, btm, left, children }) => {
 	return (
 		<div
 			className={classNames({
@@ -17,6 +11,16 @@ const Spacer = ({
 				'right-sm': right === 'sm',
 				'btm-sm': btm === 'sm',
 				'left-sm': left === 'sm',
+
+				'top-md': top === 'md',
+				'right-md': right === 'md',
+				'btm-md': btm === 'md',
+				'left-md': left === 'md',
+
+				'top-xxl': top === 'xxl',
+				'right-xxl': right === 'xxl',
+				'btm-xxl': btm === 'xxl',
+				'left-xxl': left === 'xxl',
 			})}
 		>
 			{children}

@@ -8,7 +8,7 @@ import Navigation from '../../molecules/Navigation/Navigation.component';
 const Header = () => {
 	return (
 		<React.Fragment>
-			<Spacer top='sm' btm='sm'>
+			<Spacer top='md' btm='md'>
 				<header>
 					<Link varient={'logo'}>Daryl Stensland</Link>
 					<Navigation />

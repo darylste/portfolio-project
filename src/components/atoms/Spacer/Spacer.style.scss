@@ -1,17 +1,73 @@
 @import '../../../styles/variables';
 
-.top-sm {
-	margin-top: $spacing-sm;
+.top {
+	&-xs {
+		margin-top: $spacing-xs;
+	}
+
+	&-sm {
+		margin-top: $spacing-sm;
+	}
+
+	&-md {
+		margin-top: $spacing-md;
+	}
+
+	&-xxl {
+		margin-top: $spacing-xxl;
+	}
 }
 
-.right-sm {
-	margin-right: $spacing-sm;
+.right {
+	&-xs {
+		margin-right: $spacing-xs;
+	}
+
+	&-sm {
+		margin-right: $spacing-sm;
+	}
+
+	&-md {
+		margin-right: $spacing-md;
+	}
+
+	&-xxl {
+		margin-right: $spacing-xxl;
+	}
 }
 
-.btm-sm {
-	margin-bottom: $spacing-sm;
+.btm {
+	&-xs {
+		margin-bottom: $spacing-xs;
+	}
+
+	&-sm {
+		margin-bottom: $spacing-sm;
+	}
+
+	&-md {
+		margin-bottom: $spacing-md;
+	}
+
+	&-xxl {
+		margin-bottom: $spacing-xxl;
+	}
 }
 
-.left-sm {
-	margin-left: $spacing-sm;
+.left {
+	&-xs {
+		margin-left: $spacing-xs;
+	}
+
+	&-sm {
+		margin-left: $spacing-sm;
+	}
+
+	&-md {
+		margin-left: $spacing-md;
+	}
+
+	&-xxl {
+		margin-left: $spacing-xxl;
+	}
 }
