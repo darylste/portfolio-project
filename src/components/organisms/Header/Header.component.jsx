@@ -7,14 +7,14 @@ import Navigation from '../../molecules/Navigation/Navigation.component';
 
 const Header = () => {
 	return (
-		<React.Fragment>
-			<Spacer top='md' btm='md'>
+		<div className='header-container'>
+			<Spacer top='md' btm='lg'>
 				<header>
 					<Link varient={'logo'}>Daryl Stensland</Link>
 					<Navigation />
 				</header>
 			</Spacer>
-		</React.Fragment>
+		</div>
 	);
 };
 

@@ -1,6 +1,7 @@
 import AboutSection from './components/organisms/AboutSection/AboutSection.component';
 import Header from './components/organisms/Header/Header.component';
 import HomeSection from './components/organisms/HomeSection/HomeSection.component';
+import SkillsSection from './components/organisms/SkillsSection/SkillsSection.component';
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Header />
 			<HomeSection />
 			<AboutSection />
+			<SkillsSection />
 		</div>
 	);
 }

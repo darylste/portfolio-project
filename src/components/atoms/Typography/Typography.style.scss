@@ -23,6 +23,12 @@
 	text-align: center;
 }
 
+.heading {
+	font-size: $font-size-md;
+	font-weight: $font-weight-semi-bold;
+	color: $color-black;
+}
+
 .stats {
 	font-size: $font-size-lg;
 	font-weight: $font-weight-semi-bold;
@@ -31,5 +37,5 @@
 
 .stat-text {
 	font-size: $font-size-sm;
-	text-align: center;
+	// text-align: center;
 }

@@ -10,24 +10,22 @@ import Spacer from '../../atoms/Spacer/Spacer.component';
 
 const HeroContent = () => {
 	return (
-		<Spacer top='xxl'>
-			<div className='hero-content'>
-				<div className='hero-text'>
-					<Typography varient='hero-title'>Hi, I'm Daryl</Typography>
-					<Typography varient='hero-subtitle'>Web Developer</Typography>
-					<Spacer top='sm' btm='md'>
-						<Typography varient='body'>
-							Junior Developer currently working with React, studying at City of
-							Glasgow College.
-						</Typography>
-					</Spacer>
-					<Button varient='primary' icon={sendIcon}>
-						Contact me
-					</Button>
-				</div>
-				<img className='hero-img' src={heroImg} alt='programmer' />
+		<div className='hero-content'>
+			<div className='hero-text'>
+				<Typography varient='hero-title'>Hi, I'm Daryl</Typography>
+				<Typography varient='hero-subtitle'>Web Developer</Typography>
+				<Spacer top='sm' btm='md'>
+					<Typography varient='body'>
+						Junior Developer currently working with React, studying at City of
+						Glasgow College.
+					</Typography>
+				</Spacer>
+				<Button varient='primary' icon={sendIcon}>
+					Contact me
+				</Button>
 			</div>
-		</Spacer>
+			<img className='hero-img' src={heroImg} alt='programmer' />
+		</div>
 	);
 };
 

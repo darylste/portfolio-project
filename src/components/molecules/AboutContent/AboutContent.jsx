@@ -8,10 +8,11 @@ import Typography from '../../atoms/Typography/Typography.component';
 import Stat from '../Stat/Stat.component';
 import Button from '../../atoms/Button/Button.component';
 import Spacer from '../../atoms/Spacer/Spacer.component';
+import Grid from '../../atoms/Grid/Grid.component';
 
 const AboutContent = () => {
 	return (
-		<div className='about-content'>
+		<Grid>
 			<div className='about-img-container'>
 				<img className='about-img' src={codeImg} alt='phone' />
 			</div>
@@ -32,7 +33,7 @@ const AboutContent = () => {
 					Download CV
 				</Button>
 			</div>
-		</div>
+		</Grid>
 	);
 };
 

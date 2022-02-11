@@ -1,5 +1,14 @@
+@import '../../../styles/variables';
+
 header {
+	top: 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header-container {
+	position: sticky;
+	top: 0;
+	background-color: $color-background;
 }

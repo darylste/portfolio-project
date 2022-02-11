@@ -9,6 +9,8 @@ const Typography = ({ varient, children }) => {
 			return <h2 className={varient}>{children}</h2>;
 		case 'subtitle':
 			return <h2 className={varient}>{children}</h2>;
+		case 'heading':
+			return <h3 className={varient}>{children}</h3>;
 		case 'stats':
 			return <p className={varient}>{children}</p>;
 		case 'stat-text':
