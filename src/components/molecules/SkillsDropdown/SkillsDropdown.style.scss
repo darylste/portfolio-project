@@ -1,9 +1,17 @@
-.skills-header {
+.skills-dropdown {
+	display: none;
+}
+
+.skill-container {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.code-icon,
-.expand-icon {
+.skill-icon {
 	width: 3.5rem;
+}
+
+.skills-active {
+	display: block;
 }

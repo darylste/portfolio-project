@@ -37,5 +37,10 @@
 
 .stat-text {
 	font-size: $font-size-sm;
-	// text-align: center;
+}
+
+.skill-text {
+	font-size: $font-size-body;
+	font-weight: $font-weight-med;
+	color: $color-black;
 }

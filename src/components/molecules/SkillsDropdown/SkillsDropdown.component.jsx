@@ -1,26 +1,28 @@
 import React from 'react';
 import './SkillsDropdown.style.scss';
 
-import skillsIcon from '../../../assets/brackets.svg';
-import expandIcon from '../../../assets/expand-more.svg';
-
 import Typography from '../../atoms/Typography/Typography.component';
 import Spacer from '../../atoms/Spacer/Spacer.component';
+import classNames from 'classnames';
 
-const SkillsDropdown = ({ heading, subheading }) => {
+const SkillsDropdown = ({ skills = [], isOpen = false }) => {
 	return (
-		<div className='SkillsDropdown'>
-			<div className='skills-header'>
-				<img src={skillsIcon} alt='curly brackets' className='code-icon' />
-				<div>
-					<Spacer left='sm' right='sm' className='skills-text'>
-						<Typography varient='heading'>{heading}</Typography>
-						<Typography varient='stat-text'> {subheading} </Typography>
+		<Spacer top='md'>
+			<div
+				className={classNames('skills-dropdown', {
+					'skills-active': isOpen,
+				})}
+			>
+				{skills.map(({ title, iconSrc }) => (
+					<Spacer btm='md' left='lg' right='lg'>
+						<div className='skill-container'>
+							<Typography varient='skill-text'>{title}</Typography>
+							<img className='skill-icon' src={iconSrc} alt={title} />
+						</div>
 					</Spacer>
-				</div>
-				<img className='expand-icon' src={expandIcon} alt='expand arrow' />
+				))}
 			</div>
-		</div>
+		</Spacer>
 	);
 };
 
