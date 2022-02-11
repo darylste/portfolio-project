@@ -9,7 +9,7 @@ const AboutSection = () => {
 	return (
 		<React.Fragment>
 			<Spacer top='xxl' btm='xxl'>
-				<div className='about-section'>
+				<div className='about-section' id='about'>
 					<Typography varient='title'>About Me</Typography>
 					<Typography varient='subtitle'>My introduction</Typography>
 					<Spacer top='lg' />

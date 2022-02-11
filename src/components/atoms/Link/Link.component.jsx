@@ -13,7 +13,7 @@ const Link = ({ varient, children, active = false }) => {
 		case 'nav-item':
 			return (
 				<a
-					href='#home'
+					href={`#${children.toLowerCase()}`}
 					className={classNames({
 						'nav-item': true,
 						'nav-active': active,

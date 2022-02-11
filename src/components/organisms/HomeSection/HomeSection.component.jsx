@@ -8,7 +8,7 @@ const HomeSection = () => {
 	return (
 		<React.Fragment>
 			<Spacer top='xxl' btm='xxl'>
-				<section className='home-section'>
+				<section className='home-section' id='home'>
 					<SocialTab />
 					<HeroContent />
 				</section>

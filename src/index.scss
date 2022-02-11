@@ -7,6 +7,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -22,4 +23,11 @@ body {
 	background-color: $color-background;
 	width: 60%;
 	margin: 0 auto;
+}
+
+#home,
+#about,
+#skills {
+	padding-top: 22rem;
+	margin-top: -22rem;
 }

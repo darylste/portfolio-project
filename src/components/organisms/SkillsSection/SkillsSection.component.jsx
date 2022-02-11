@@ -52,7 +52,7 @@ const SkillsSection = () => {
 	return (
 		<React.Fragment>
 			<Spacer top='xxl' btm='xxl'>
-				<section className='skills-section'>
+				<section className='skills-section' id='skills'>
 					<Typography varient='title'>Skills</Typography>
 					<Typography varient='subtitle'>My technical level</Typography>
 				</section>
@@ -65,7 +65,7 @@ const SkillsSection = () => {
 					/>
 					<SkillsHeader
 						heading='Backend Technologies'
-						subheading='One year'
+						subheading='Currently learning'
 						skills={skillsBackend}
 					/>
 				</Grid>
