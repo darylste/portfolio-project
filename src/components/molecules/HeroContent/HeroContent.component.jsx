@@ -20,7 +20,11 @@ const HeroContent = () => {
 						Glasgow College.
 					</Typography>
 				</Spacer>
-				<Button varient='primary' icon={sendIcon}>
+				<Button
+					varient='primary'
+					icon={sendIcon}
+					href='mailto:dstensland5@gmail.com'
+				>
 					Contact me
 				</Button>
 			</div>

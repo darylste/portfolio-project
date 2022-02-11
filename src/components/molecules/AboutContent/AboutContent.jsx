@@ -3,6 +3,7 @@ import './AboutContent.scss';
 
 import codeImg from '../../../assets/code.svg';
 import downloadIcon from '../../../assets/download.svg';
+import CV from '../../../assets/darylCV.pdf';
 
 import Typography from '../../atoms/Typography/Typography.component';
 import Stat from '../Stat/Stat.component';
@@ -29,7 +30,7 @@ const AboutContent = () => {
 						<Stat time='05+' activity='Companies worked' />
 					</div>
 				</Spacer>
-				<Button varient={'primary'} icon={downloadIcon}>
+				<Button varient='primary' icon={downloadIcon} href={CV}>
 					Download CV
 				</Button>
 			</div>
