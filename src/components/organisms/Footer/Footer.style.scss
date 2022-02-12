@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+
+footer {
+	width: 100vw;
+	background-color: $color-primary;
+}
+
+.footer-content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.footer-nav > ul > li {
+	color: $color-white;
+
+	&:hover {
+		color: $color-primary-light;
+	}
+}

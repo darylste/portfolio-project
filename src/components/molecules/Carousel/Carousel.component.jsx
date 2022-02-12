@@ -25,7 +25,7 @@ const Carousel = ({ projects = 0 }) => {
 							<SwiperSlide>
 								<Spacer left='xxl' right='xxl'>
 									<div className='carousel-slide'>
-										<Grid>
+										<Grid cols='2'>
 											<img className='carousel-img' src={imgSrc} alt={imgAlt} />
 											<div className='text'>
 												<Typography varient='heading'>{title}</Typography>
@@ -36,7 +36,7 @@ const Carousel = ({ projects = 0 }) => {
 													<Button
 														varient='primary'
 														icon={arrowIcon}
-														iconClassName='icon-white'
+														iconClassName='icon-white icon-rotate'
 														href={siteUrl}
 													>
 														Website
@@ -45,7 +45,7 @@ const Carousel = ({ projects = 0 }) => {
 													<Button
 														varient='primary'
 														icon={arrowIcon}
-														iconClassName='icon-white'
+														iconClassName='icon-white icon-rotate'
 														href={codeUrl}
 													>
 														Code

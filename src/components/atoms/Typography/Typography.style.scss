@@ -44,3 +44,15 @@
 	font-weight: $font-weight-med;
 	color: $color-black;
 }
+
+.footer-title {
+	font-size: $font-size-xl;
+	color: $color-white;
+	line-height: 1;
+}
+
+.footer-subtitle {
+	font-size: $font-size-sm;
+	font-weight: $font-weight-reg;
+	color: $color-white;
+}

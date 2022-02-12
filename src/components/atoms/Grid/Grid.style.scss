@@ -2,6 +2,14 @@
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: $spacing-md $spacing-xxl;
+
+	&-2 {
+		grid-template-columns: repeat(2, 1fr);
+		gap: $spacing-md $spacing-xxl;
+	}
+
+	&-3 {
+		grid-template-columns: repeat(3, 1fr);
+		gap: $spacing-md $spacing-md;
+	}
 }

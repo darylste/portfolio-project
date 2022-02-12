@@ -13,7 +13,7 @@ import Grid from '../../atoms/Grid/Grid.component';
 
 const AboutContent = () => {
 	return (
-		<Grid>
+		<Grid cols='2'>
 			<div className='about-img-container'>
 				<img className='about-img' src={codeImg} alt='phone' />
 			</div>

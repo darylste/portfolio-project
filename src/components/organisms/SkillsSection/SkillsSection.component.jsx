@@ -13,7 +13,6 @@ import Grid from '../../atoms/Grid/Grid.component';
 import Spacer from '../../atoms/Spacer/Spacer.component';
 import Typography from '../../atoms/Typography/Typography.component';
 import SkillsHeader from '../../molecules/SkillsHeader/SkillsHeader.component';
-import SkillsDropdown from '../../molecules/SkillsDropdown/SkillsDropdown.component';
 
 const SkillsSection = () => {
 	const skillsFrontend = [
@@ -55,20 +54,20 @@ const SkillsSection = () => {
 				<section className='skills-section' id='skills'>
 					<Typography varient='title'>Skills</Typography>
 					<Typography varient='subtitle'>My technical level</Typography>
+					<Spacer top='lg' />
+					<Grid cols='2'>
+						<SkillsHeader
+							heading='Frontend Technologies'
+							subheading='One year'
+							skills={skillsFrontend}
+						/>
+						<SkillsHeader
+							heading='Backend Technologies'
+							subheading='Currently learning'
+							skills={skillsBackend}
+						/>
+					</Grid>
 				</section>
-				<Spacer top='lg' />
-				<Grid>
-					<SkillsHeader
-						heading='Frontend Technologies'
-						subheading='One year'
-						skills={skillsFrontend}
-					/>
-					<SkillsHeader
-						heading='Backend Technologies'
-						subheading='Currently learning'
-						skills={skillsBackend}
-					/>
-				</Grid>
 			</Spacer>
 		</React.Fragment>
 	);

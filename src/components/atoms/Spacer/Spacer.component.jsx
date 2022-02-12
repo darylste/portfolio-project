@@ -8,6 +8,11 @@ const Spacer = ({ top, right, btm, left, children, className }) => {
 		<div
 			className={classNames(
 				{
+					'top-xs': top === 'xs',
+					'right-xs': right === 'xs',
+					'btm-xs': btm === 'xs',
+					'left-xs': left === 'xs',
+
 					'top-sm': top === 'sm',
 					'right-sm': right === 'sm',
 					'btm-sm': btm === 'sm',
