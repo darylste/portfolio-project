@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.scroll-up {
+	position: fixed;
+	bottom: $spacing-md;
+	right: $spacing-md;
+	padding: 0.5rem;
+	margin-bottom: -100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background-color: $color-primary-light;
+
+	&:hover {
+		background-color: $color-primary;
+	}
+
+	&-active {
+		margin-bottom: 0;
+	}
+}

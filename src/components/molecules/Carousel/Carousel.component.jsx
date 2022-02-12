@@ -36,7 +36,7 @@ const Carousel = ({ projects = 0 }) => {
 													<Button
 														varient='primary'
 														icon={arrowIcon}
-														iconClassName='icon-white icon-rotate'
+														iconClassName='icon-white icon-rotate-90'
 														href={siteUrl}
 													>
 														Website
@@ -45,7 +45,7 @@ const Carousel = ({ projects = 0 }) => {
 													<Button
 														varient='primary'
 														icon={arrowIcon}
-														iconClassName='icon-white icon-rotate'
+														iconClassName='icon-white icon-rotate-90'
 														href={codeUrl}
 													>
 														Code

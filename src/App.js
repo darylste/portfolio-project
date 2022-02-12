@@ -4,6 +4,7 @@ import HomeSection from './components/organisms/HomeSection/HomeSection.componen
 import ProjectSection from './components/organisms/ProjectSection/ProjectSection.component';
 import SkillsSection from './components/organisms/SkillsSection/SkillsSection.component';
 import Footer from './components/organisms/Footer/Footer.component';
+import ScrollUp from './components/atoms/ScrollUp/ScrollUp.component';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<SkillsSection />
 			<ProjectSection />
 			<Footer />
+			<ScrollUp />
 		</div>
 	);
 }
