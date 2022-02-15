@@ -50,3 +50,21 @@ section {
 .icon-rotate-180 {
 	transform: rotate(180deg);
 }
+
+@media only screen and (max-width: 1000px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+// @media screen and (min-width: 640px) {
+// 	.swiper {
+// 		width: 640px;
+// 	}
+// }
+
+// @media screen and (min-width: 768px) {
+// 	.swiper {
+// 		width: 768px;
+// 	}
+// }

@@ -87,3 +87,20 @@
 		padding-left: $spacing-xxl;
 	}
 }
+
+@media only screen and (max-width: 800px) {
+	.top {
+		&-xxl {
+			padding-top: $spacing-md;
+		}
+	}
+
+	.btm {
+		&-lg {
+			padding-bottom: $spacing-sm;
+		}
+		&-xxl {
+			padding-bottom: $spacing-md;
+		}
+	}
+}

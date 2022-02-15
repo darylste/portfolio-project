@@ -12,3 +12,13 @@ header {
 	top: 0;
 	background-color: $color-background;
 }
+
+@media only screen and (max-width: 650px) {
+	header {
+		flex-direction: column;
+	}
+
+	.header-logo {
+		margin-bottom: $spacing-sm;
+	}
+}

@@ -15,7 +15,7 @@ const HeroContent = () => {
 		<div className='hero-content'>
 			<Grid cols='2'>
 				<div className='hero-main'>
-					<Spacer right='md'>
+					<Spacer right='md' className='hero-left'>
 						<SocialTab />
 					</Spacer>
 					<div className='hero-text'>

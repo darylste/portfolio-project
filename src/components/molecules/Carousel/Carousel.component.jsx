@@ -16,6 +16,18 @@ const Carousel = ({ projects = 0 }) => {
 		<div className='carousel'>
 			<Spacer top='lg' btm='xxl'>
 				<Swiper
+					breakpoints={{
+						// when window width is >= 640px
+						640: {
+							width: 640,
+							slidesPerView: 1,
+						},
+						// when window width is >= 768px
+						768: {
+							width: 768,
+							slidesPerView: 2,
+						},
+					}}
 					pagination={{ clickable: true, el: '.pagination' }}
 					modules={[Navigation, Pagination]}
 					navigation
@@ -26,7 +38,13 @@ const Carousel = ({ projects = 0 }) => {
 								<Spacer left='xxl' right='xxl'>
 									<div className='carousel-slide'>
 										<Grid cols='2'>
-											<img className='carousel-img' src={imgSrc} alt={imgAlt} />
+											<div className='carousel-img-container'>
+												<img
+													className='carousel-img'
+													src={imgSrc}
+													alt={imgAlt}
+												/>
+											</div>
 											<div className='text'>
 												<Typography varient='heading'>{title}</Typography>
 												<Spacer btm='sm' />

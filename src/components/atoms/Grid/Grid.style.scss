@@ -13,3 +13,21 @@
 		gap: $spacing-md $spacing-md;
 	}
 }
+
+@media only screen and (max-width: 1000px) {
+	.grid {
+		&-2 {
+			grid-template-columns: 1fr;
+			gap: $spacing-lg;
+		}
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.grid {
+		&-3 {
+			grid-template-columns: 1fr;
+			gap: $spacing-md;
+		}
+	}
+}

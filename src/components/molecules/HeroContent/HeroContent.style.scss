@@ -4,4 +4,11 @@
 
 .hero-img {
 	width: 100%;
+	align-self: center;
+}
+
+@media only screen and (max-width: 550px) {
+	.hero-left {
+		display: none;
+	}
 }
