@@ -19,6 +19,15 @@
 	width: 480px;
 }
 
+.swiper-pagination-bullet-active {
+	background-color: $color-primary-dark;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: $color-primary-dark;
+}
+
 @media screen and (min-width: 640px) {
 	.swiper-container {
 		width: 640px;
