@@ -16,21 +16,10 @@ const Carousel = ({ projects = 0 }) => {
 		<div className='carousel'>
 			<Spacer top='lg' btm='xxl'>
 				<Swiper
-					breakpoints={{
-						// when window width is >= 640px
-						640: {
-							width: 640,
-							slidesPerView: 1,
-						},
-						// when window width is >= 768px
-						768: {
-							width: 768,
-							slidesPerView: 2,
-						},
-					}}
-					pagination={{ clickable: true, el: '.pagination' }}
 					modules={[Navigation, Pagination]}
+					pagination={{ clickable: true, el: '.pagination' }}
 					navigation
+					slidesPerView={1}
 				>
 					{projects.map(
 						({ title, description, imgSrc, imgAlt, siteUrl, codeUrl }) => (

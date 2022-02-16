@@ -1,8 +1,11 @@
 @import '../../../styles/variables';
+.carousel-img-container {
+	display: flex;
+}
 
 .carousel-img {
-	width: 100%;
-	margin: 0 0 0 auto;
+	width: 80%;
+	margin: 0 auto;
 	border-radius: 0.75rem;
 }
 
@@ -28,14 +31,7 @@
 	color: $color-primary-dark;
 }
 
-@media screen and (min-width: 640px) {
-	.swiper-container {
-		width: 640px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.swiper-container {
-		width: 768px;
-	}
+.swiper-slide-active {
+	margin-right: 0 !important;
+	padding: 0;
 }
