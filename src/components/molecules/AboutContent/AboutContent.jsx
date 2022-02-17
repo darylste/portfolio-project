@@ -19,20 +19,20 @@ const AboutContent = () => {
 			</div>
 			<div className='about-text'>
 				<Typography varient='body'>
-					I'm Daryl, a HND Web Development Student at City of Glasgow College. I
-					love creating modern websites that not only look great but bring joy
-					to those who use them.
+					I am a junior developer studying HND Web Development at the City of
+					Glasgow College. I love creating new projects and expanding my
+					development knowledge.
 				</Typography>
 				<Spacer btm='sm' />
 				<Typography varient='body'>
-					I'm currently developing a blogging website, using React on the
-					front-end with Express.js on the back-end.
+					I am currently working on a bloging application using a React
+					front-end and Express on the back-end.
 				</Typography>
 				<Spacer top='md' btm='md'>
 					<div className='stats-container'>
-						<Stat time='1' activity='Years experience' />
-						<Stat time='4' activity='Projects completed' />
-						<Stat time='0' activity='Companies worked' />
+						<Stat time='1+' activity='Years experience' />
+						<Stat time='9+' activity='Projects completed' />
+						{/* <Stat time='0' activity='Companies worked' /> */}
 					</div>
 				</Spacer>
 				<Button varient='primary' icon={downloadIcon} href={CV}>

@@ -1,7 +1,9 @@
 import React from 'react';
 import './ProjectSection.style.scss';
 
-import portfolio1 from '../../../assets/portfolio1.jpg';
+import natoursImg from '../../../assets/natours.svg';
+import trilloImg from '../../../assets/trello.svg';
+import blogrImg from '../../../assets/blogr.svg';
 
 import Typography from '../../atoms/Typography/Typography.component';
 import Carousel from '../../molecules/Carousel/Carousel.component';
@@ -9,36 +11,36 @@ import Carousel from '../../molecules/Carousel/Carousel.component';
 const ProjectSection = () => {
 	const projects = [
 		{
-			title: 'Online',
+			title: 'Blogr',
 			description:
-				'Website adaptable to all devices, with ui components and animated interactions.',
-			imgSrc: portfolio1,
-			imgAlt: 'portfolio name',
-			siteUrl: 'dummy url',
-			codeUrl: 'dummy url',
+				'Using a React front-end and Express.js on the back-end, Blogr is a complete blogging platform. Users will be able to veiw others post as well as sign in and create, edit and delete their own.',
+			imgSrc: blogrImg,
+			imgAlt: 'Face Recognition Website',
+			siteUrl: 'https://darylste.github.io/natours/',
+			codeUrl: 'https://github.com/darylste/natours/',
 		},
 		{
-			title: 'Online',
+			title: 'Trillo',
 			description:
-				'Website adaptable to all devices, with ui components and animated interactions.',
-			imgSrc: portfolio1,
-			imgAlt: 'portfolio name',
-			siteUrl: 'dummy url',
-			codeUrl: 'dummy url',
+				'A static hotel booking page for an all-in-one hotel, flights and accomidation website. Trello utilises CSS grid to create a box style webpage.',
+			imgSrc: trilloImg,
+			imgAlt: 'trillo',
+			siteUrl: 'https://darylste.github.io/trillo/',
+			codeUrl: 'https://github.com/darylste/trillo',
 		},
 		{
-			title: 'Online',
+			title: 'Natours',
 			description:
-				'Website adaptable to all devices, with ui components and animated interactions.',
-			imgSrc: portfolio1,
-			imgAlt: 'portfolio name',
-			siteUrl: 'dummy url',
-			codeUrl: 'dummy url',
+				'Natours is an online marketplace for exciting outdoor tours. This portfolio project features a sleek design and variety of modern CSS technologies.',
+			imgSrc: natoursImg,
+			imgAlt: 'Natours',
+			siteUrl: 'https://darylste.github.io/natours/',
+			codeUrl: 'https://github.com/darylste/natours/security/dependabot',
 		},
 	];
 
 	return (
-		<section className='projects-section'>
+		<section className='projects-section' id='projects'>
 			<Typography varient='title'>Projects</Typography>
 			<Typography varient='subtitle'>My recent work</Typography>
 			<Carousel projects={projects} />

@@ -19,7 +19,7 @@ const Navigation = () => {
 					<Link varient='nav-item'>Skills</Link>
 				</li>
 				<li>
-					<Link varient='nav-item'>Portfolio</Link>
+					<Link varient='nav-item'>Projects</Link>
 				</li>
 			</ul>
 		</nav>

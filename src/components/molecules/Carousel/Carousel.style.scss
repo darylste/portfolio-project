@@ -4,9 +4,13 @@
 }
 
 .carousel-img {
-	width: 80%;
-	margin: 0 auto;
+	width: 70%;
+	margin: 0 0 0 auto;
 	border-radius: 0.75rem;
+}
+
+.carousel-text {
+	width: 70%;
 }
 
 .btn-group {
@@ -34,4 +38,14 @@
 .swiper-slide-active {
 	margin-right: 0 !important;
 	padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.carousel-img {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.carousel-text {
+		width: 100%;
+	}
 }

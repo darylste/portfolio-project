@@ -34,7 +34,7 @@ const Carousel = ({ projects = 0 }) => {
 													alt={imgAlt}
 												/>
 											</div>
-											<div className='text'>
+											<div className='carousel-text'>
 												<Typography varient='heading'>{title}</Typography>
 												<Spacer btm='sm' />
 												<Typography varient='body'>{description}</Typography>

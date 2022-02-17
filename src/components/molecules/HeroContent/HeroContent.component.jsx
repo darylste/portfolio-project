@@ -23,8 +23,8 @@ const HeroContent = () => {
 						<Typography varient='hero-subtitle'>Web Developer</Typography>
 						<Spacer top='sm' btm='md'>
 							<Typography varient='body'>
-								Junior Developer currently working with React, studying at City
-								of Glasgow College.
+								Junior Developer working with React, studying at City of Glasgow
+								College.
 							</Typography>
 						</Spacer>
 						<Button
