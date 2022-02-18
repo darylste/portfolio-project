@@ -36,7 +36,13 @@ const HeroContent = () => {
 						</Button>
 					</div>
 				</div>
-				<img className='hero-img' src={heroImg} alt='programmer' />
+				<img
+					className='hero-img'
+					src={heroImg}
+					alt='programmer'
+					width='100%'
+					height='auto'
+				/>
 			</Grid>
 		</div>
 	);

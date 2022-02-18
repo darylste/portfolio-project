@@ -33,9 +33,10 @@ section {
 
 #home,
 #about,
-#skills {
-	padding-top: 22rem;
-	margin-top: -22rem;
+#skills,
+#projects {
+	padding-top: 18rem;
+	margin-top: -18rem;
 }
 
 .icon-white {
@@ -56,15 +57,3 @@ section {
 		font-size: 50%;
 	}
 }
-
-// @media screen and (min-width: 640px) {
-// 	.swiper {
-// 		width: 640px;
-// 	}
-// }
-
-// @media screen and (min-width: 768px) {
-// 	.swiper {
-// 		width: 768px;
-// 	}
-// }

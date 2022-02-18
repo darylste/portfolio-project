@@ -14,7 +14,7 @@ const SkillsDropdown = ({ skills = [], isOpen = false }) => {
 				})}
 			>
 				{skills.map(({ title, iconSrc }) => (
-					<Spacer btm='md' left='lg' right='lg'>
+					<Spacer key={title} btm='md' left='lg' right='lg'>
 						<div className='skill-container'>
 							<Typography varient='skill-text'>{title}</Typography>
 							<img className='skill-icon' src={iconSrc} alt={title} />

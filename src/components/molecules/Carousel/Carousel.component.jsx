@@ -23,7 +23,7 @@ const Carousel = ({ projects = 0 }) => {
 				>
 					{projects.map(
 						({ title, description, imgSrc, imgAlt, siteUrl, codeUrl }) => (
-							<SwiperSlide>
+							<SwiperSlide key={title}>
 								<Spacer left='xxl' right='xxl'>
 									<div className='carousel-slide'>
 										<Grid cols='2'>
