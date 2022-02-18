@@ -20,9 +20,9 @@ const Footer = () => {
 						</div>
 						<div className='footer-nav'>
 							<ul className='nav-list'>
-								<li className='nav-item'>About</li>
-								<li className='nav-item'>Skills</li>
-								<li className='nav-item'>Portfolio</li>
+								<li className='footer-nav-item'>About</li>
+								<li className='footer-nav-item'>Skills</li>
+								<li className='footer-nav-item'>Portfolio</li>
 							</ul>
 						</div>
 						<SocialTab color='white' direction='row' />
