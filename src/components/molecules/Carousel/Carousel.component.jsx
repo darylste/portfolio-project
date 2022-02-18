@@ -54,6 +54,7 @@ const Carousel = ({ projects = 0 }) => {
 														icon={arrowIcon}
 														iconClassName='icon-white icon-rotate-90'
 														href={codeUrl}
+														isCentered={false}
 													>
 														Code
 													</Button>

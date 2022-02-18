@@ -10,10 +10,17 @@ const Button = ({
 	href,
 	isPDF = false,
 	iconClassName,
+	isCentered = false,
 }) => {
 	if (isPDF) {
 		return (
-			<a href={href} download className={`btn-${varient}`}>
+			<a
+				href={href}
+				download
+				className={classNames(`btn-${varient}`, {
+					'btn-centered': isCentered,
+				})}
+			>
 				{children}
 				<img className='btn-icon' src={icon} alt='send icon' />
 			</a>
@@ -24,7 +31,9 @@ const Button = ({
 				href={href}
 				rel='noreferrer'
 				target='_blank'
-				className={`btn-${varient}`}
+				className={classNames(`btn-${varient}`, {
+					'btn-centered': isCentered,
+				})}
 			>
 				{children}
 				<img

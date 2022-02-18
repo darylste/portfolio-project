@@ -32,10 +32,9 @@ const AboutContent = () => {
 					<div className='stats-container'>
 						<Stat time='1+' activity='Years experience' />
 						<Stat time='9+' activity='Projects completed' />
-						{/* <Stat time='0' activity='Companies worked' /> */}
 					</div>
 				</Spacer>
-				<Button varient='primary' icon={downloadIcon} href={CV}>
+				<Button varient='primary' icon={downloadIcon} href={CV} isCentered>
 					Download CV
 				</Button>
 			</div>
