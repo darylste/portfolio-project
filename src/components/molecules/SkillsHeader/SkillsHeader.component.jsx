@@ -18,7 +18,9 @@ const SkillsHeader = ({ heading, subheading, skills }) => {
 				<img src={skillsIcon} alt='curly brackets' className='code-icon' />
 				<Spacer left='sm' right='sm' className='skills-text'>
 					<Typography varient='heading'>{heading}</Typography>
-					<Typography varient='stat-text'> {subheading} </Typography>
+					{subheading && (
+						<Typography varient='stat-text'> {subheading} </Typography>
+					)}
 				</Spacer>
 				<img
 					className={classNames('expand-icon', {

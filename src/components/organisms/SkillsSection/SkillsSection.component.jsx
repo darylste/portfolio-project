@@ -58,7 +58,6 @@ const SkillsSection = () => {
 					<Grid cols='2'>
 						<SkillsHeader
 							heading='Frontend Technologies'
-							subheading='One year'
 							skills={skillsFrontend}
 						/>
 						<SkillsHeader
