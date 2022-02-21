@@ -16,8 +16,10 @@ const ProjectSection = () => {
 				'Using a React front-end and Express.js on the back-end, Blogr is a complete blogging platform. Users will be able to veiw others post as well as sign in and create, edit and delete their own.',
 			imgSrc: blogrImg,
 			imgAlt: 'Face Recognition Website',
-			siteUrl: 'https://darylste.github.io/natours/',
-			codeUrl: 'https://github.com/darylste/natours/',
+			btnOneText: 'Frontend',
+			btnOneUrl: 'https://github.com/darylste/Blogr',
+			btnTwoText: 'Backend',
+			btnTwoUrl: 'https://github.com/darylste/blogr-server',
 		},
 		{
 			title: 'Trillo',
@@ -25,8 +27,10 @@ const ProjectSection = () => {
 				'A static hotel booking page for an all-in-one hotel, flights and accomidation website. Trello utilises CSS grid to create a box style webpage.',
 			imgSrc: trilloImg,
 			imgAlt: 'trillo',
-			siteUrl: 'https://darylste.github.io/trillo/',
-			codeUrl: 'https://github.com/darylste/trillo',
+			btnOneText: 'Website',
+			btnOneUrl: 'https://darylste.github.io/trillo/',
+			btnTwoText: 'Code',
+			btnTwoUrl: 'https://github.com/darylste/trillo',
 		},
 		{
 			title: 'Natours',
@@ -34,8 +38,10 @@ const ProjectSection = () => {
 				'Natours is an online marketplace for exciting outdoor tours. This portfolio project features a sleek design and variety of modern CSS technologies.',
 			imgSrc: natoursImg,
 			imgAlt: 'Natours',
-			siteUrl: 'https://darylste.github.io/natours/',
-			codeUrl: 'https://github.com/darylste/natours/security/dependabot',
+			btnOneText: 'Website',
+			btnOneUrl: 'https://darylste.github.io/natours/',
+			btnTwoText: 'Code',
+			btnTwoUrl: 'https://github.com/darylste/natours/',
 		},
 	];
 

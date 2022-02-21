@@ -22,7 +22,16 @@ const Carousel = ({ projects = 0 }) => {
 					slidesPerView={1}
 				>
 					{projects.map(
-						({ title, description, imgSrc, imgAlt, siteUrl, codeUrl }) => (
+						({
+							title,
+							description,
+							imgSrc,
+							imgAlt,
+							btnOneText,
+							btnOneUrl,
+							btnTwoText,
+							btnTwoUrl,
+						}) => (
 							<SwiperSlide key={title}>
 								<Spacer left='xxl' right='xxl'>
 									<div className='carousel-slide'>
@@ -44,19 +53,19 @@ const Carousel = ({ projects = 0 }) => {
 														varient='primary'
 														icon={arrowIcon}
 														iconClassName='icon-white icon-rotate-90'
-														href={siteUrl}
+														href={btnOneUrl}
 													>
-														Website
+														{btnOneText}
 													</Button>
 													<Spacer left='sm' />
 													<Button
 														varient='primary'
 														icon={arrowIcon}
 														iconClassName='icon-white icon-rotate-90'
-														href={codeUrl}
+														href={btnTwoUrl}
 														isCentered={false}
 													>
-														Code
+														{btnTwoText}
 													</Button>
 												</div>
 											</div>
