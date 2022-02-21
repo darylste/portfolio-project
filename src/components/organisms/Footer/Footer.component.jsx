@@ -11,18 +11,26 @@ const Footer = () => {
 			<Spacer top='md' btm='xxl'>
 				<div className='footer-content'>
 					<Grid cols='3'>
-						<div className='left'>
-							<Typography varient='footer-title'>Daryl</Typography>
-							<Spacer btm='xs' />
-							<Typography varient='footer-subtitle'>
-								Full Stack Developer
-							</Typography>
-						</div>
+						<a href='#home'>
+							<div className='left'>
+								<Typography varient='footer-title'>Daryl</Typography>
+								<Spacer btm='xs' />
+								<Typography varient='footer-subtitle'>
+									Full Stack Developer
+								</Typography>
+							</div>
+						</a>
 						<div className='footer-nav'>
 							<ul className='nav-list'>
-								<li className='footer-nav-item'>About</li>
-								<li className='footer-nav-item'>Skills</li>
-								<li className='footer-nav-item'>Portfolio</li>
+								<a href='#about' className='footer-nav-item'>
+									<li className='footer-nav-item'>About</li>
+								</a>
+								<a href='#skills' className='footer-nav-item'>
+									<li className='footer-nav-item'>Skills</li>
+								</a>
+								<a href='#projects' className='footer-nav-item'>
+									<li className='footer-nav-item'>Projects</li>
+								</a>
 							</ul>
 						</div>
 						<SocialTab color='white' direction='row' />
