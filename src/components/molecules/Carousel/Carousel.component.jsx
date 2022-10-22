@@ -23,28 +23,23 @@ const Carousel = ({ projects = 0 }) => {
 				>
 					{projects.map(
 						({
-							title,
+							name,
 							description,
-							imgSrc,
-							imgAlt,
-							btnOneText,
-							btnOneUrl,
-							btnTwoText,
-							btnTwoUrl,
+							imgUrl,
+							button_one_text,
+							button_one_link,
+							button_two_text,
+							button_two_link,
 						}) => (
-							<SwiperSlide key={title}>
+							<SwiperSlide key={name}>
 								<Spacer left='xxl' right='xxl'>
 									<div className='carousel-slide'>
 										<Grid cols='2'>
 											<div className='carousel-img-container'>
-												<img
-													className='carousel-img'
-													src={imgSrc}
-													alt={imgAlt}
-												/>
+												<img className='carousel-img' src={imgUrl} alt={name} />
 											</div>
 											<div className='carousel-text'>
-												<Typography varient='heading'>{title}</Typography>
+												<Typography varient='heading'>{name}</Typography>
 												<Spacer btm='sm' />
 												<Typography varient='body'>{description}</Typography>
 												<Spacer top='sm' />
@@ -53,19 +48,19 @@ const Carousel = ({ projects = 0 }) => {
 														varient='primary'
 														icon={arrowIcon}
 														iconClassName='icon-white icon-rotate-90'
-														href={btnOneUrl}
+														href={button_one_link}
 													>
-														{btnOneText}
+														{button_one_text}
 													</Button>
 													<Spacer left='sm' />
 													<Button
 														varient='primary'
 														icon={arrowIcon}
 														iconClassName='icon-white icon-rotate-90'
-														href={btnTwoUrl}
+														href={button_two_link}
 														isCentered={false}
 													>
-														{btnTwoText}
+														{button_two_text}
 													</Button>
 												</div>
 											</div>
