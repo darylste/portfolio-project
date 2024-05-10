@@ -11,41 +11,48 @@ import Grid from '../../atoms/Grid/Grid.component';
 import SocialTab from '../../molecules/SocialTab/SocialTab.component';
 
 const HeroContent = () => {
-	return (
-		<div className='hero-content'>
-			<Grid cols='2'>
-				<div className='hero-main'>
-					<Spacer right='md' className='hero-left'>
-						<SocialTab />
-					</Spacer>
-					<div className='hero-text'>
-						<Typography varient='hero-title'>Hi, I'm Daryl</Typography>
-						<Typography varient='hero-subtitle'>Web Developer</Typography>
-						<Spacer top='sm' btm='md'>
-							<Typography varient='body'>
-								Junior Developer working with React, studying at City of Glasgow
-								College.
-							</Typography>
-						</Spacer>
-						<Button
-							varient='primary'
-							icon={sendIcon}
-							href='mailto:dstensland5@gmail.com'
-						>
-							Contact me
-						</Button>
-					</div>
-				</div>
-				<img
-					className='hero-img'
-					src={heroImg}
-					alt='programmer'
-					width='100%'
-					height='auto'
-				/>
-			</Grid>
-		</div>
-	);
+  return (
+    <div className='hero-content'>
+      <Grid cols='2'>
+        <div className='hero-main'>
+          <Spacer
+            right='md'
+            className='hero-left'
+          >
+            <SocialTab />
+          </Spacer>
+          <div className='hero-text'>
+            <Typography varient='hero-title'>Hi, I'm Daryl</Typography>
+            <Typography varient='hero-subtitle'>Software Developer</Typography>
+            <Spacer
+              top='sm'
+              btm='md'
+            >
+              <Typography varient='body'>
+                Recent UWS Graduate experienced with a range of technologies -
+                including .NET and React.js/Next.js. Eager to find my start in
+                the tech industry.
+              </Typography>
+            </Spacer>
+            <Button
+              varient='primary'
+              icon={sendIcon}
+              href='mailto:dstensland5@gmail.com'
+            >
+              Email me
+            </Button>
+          </div>
+        </div>
+        <img
+          className='hero-img'
+          src={heroImg}
+          alt='programmer'
+          width='100%'
+          height='auto'
+        />
+      </Grid>
+    </div>
+  );
 };
 
 export default HeroContent;
